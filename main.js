@@ -21,6 +21,18 @@ function isItShort(str) {
   }
 }
 
+function howLongIsMyString(str){
+  if (str.length > 20) {
+		return "That's a long string!";
+	}
+  if (str.length >= 10 && str.length <= 20) {
+		return "That's a regular sized string!";
+	}
+  else {
+		return "That's a small string!";
+	}
+}
+
 /**********************************
  *      OUR CODE GOES BELOW.      *
  * THIS IS FOR INTERNAL USE ONLY. *
