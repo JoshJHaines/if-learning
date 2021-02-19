@@ -1,7 +1,13 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
+function isItLong(str){
+  if (str.length > 20) {
+    return "That's a long string!"
+  }
+}
 
+function isItMedium(str){}
 
 
 
