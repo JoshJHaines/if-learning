@@ -33,6 +33,18 @@ function howLongIsMyString(str){
 	}
 }
 
+function instructorHeight(inst){
+  if (inst === "Colin") {
+    return 62
+  }
+  if (inst === "Mesuara") {
+    return 69
+  }
+  else {
+    return "I don't know that instructor!"
+  }
+}
+
 /**********************************
  *      OUR CODE GOES BELOW.      *
  * THIS IS FOR INTERNAL USE ONLY. *
